@@ -12,6 +12,6 @@ in index.html file line number 39 (as per this code)
 
 
 ### Support
-For any support pls send email to me@karthik.sg
+For any support pls send email to :mailbox: me@karthik.sg
 
 
