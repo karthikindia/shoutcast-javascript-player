@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	
+	<title>Tamil Music Rain - NAGA FM</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery-css-transform.js"></script>
+	<script type="text/javascript" src="js/jquery-animate-css-rotate-scale.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript">
+	    
+	    function playSound(el,soundfile) {
+    if (el.mp3) {
+        if(el.mp3.paused) el.mp3.play();
+        else el.mp3.pause();
+    } else {
+        el.mp3 = new Audio(soundfile);
+        el.mp3.play();
+    }
+}
+	</script>
+	<script language="javascript" type="text/javascript" src="http://sc.cobrasoftwares.in:2199/system/streaminfo.js"></script>
+
+</head>
+
+<body>
+<div id="wrapper">
+	<h1>NAGA FM<small></h1>
+	<h1>Tamil Music Rain</small></h1>
+	<small><h2>
+<a href="http://sc.cobrasoftwares.in:2199/tunein/nagafmserver.pls" id="cc_strinfo_song_nagafmserver" class="cc_streaminfo">Loading ...</a><br /></small></h2>
+
+	<div id="content">
+		<div class="center">
+			<p id="playbutton">
+			    
+<span id="dummy" onclick="playSound(this, 'http://songs.nagafm.com:8006/;stream.mp3');">
+    
+    <img src="images/btn-play.png" alt="Play" id="playbtn" />
+</span>
+			
+			</p>
+		</div>
+		<div id="dj">
+			<div class="needle" id="needle1"></div>
+			<div class="vinyl" id="vinyl1"></div>
+			<div class="needle" id="needle2"></div>
+			<div class="vinyl" id="vinyl2"></div>
+		<br>
+		<br>
+		</div>
+	</div>
+</div>
+</body>
+</html>
